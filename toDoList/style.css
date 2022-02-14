@@ -1,0 +1,80 @@
+*{
+    font-family: 'Festive', cursive;
+}
+.EleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    color: #6b0d76;
+    font-size: 40px;
+}
+#inputText{
+    padding: 25px 35px;
+    width: 400px;
+    border-radius: 35px;
+    background-color: #c915bf99;
+    color: white;
+    font-size: 18px;
+}
+#add{
+    padding: 15px 25px;
+    background-color: #bb1bb2b3;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+}
+#input{
+    width: 580px;
+    margin: 0 auto;
+}
+.taskDone{
+    background-color: #3ecb20;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 5px 15px;
+    color: white;
+}
+.taskDelete{
+    padding: 10px 15px;
+    background-color: #c72222;
+    border-radius: 10px;
+    color: white;
+}
+p{
+    padding: 10px 10px;
+    width: 400px;
+    border: 1px solid #cb1933;
+    background-color: #ff7f50b0;
+    border-radius: 20px;
+    color: white;
+}
+body{
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+::placeholder {
+    color: white;
+    font-size: 18px;
+}
+/* Edge placeholders */
+::-webkit-input-placeholder {
+    color: white;
+    font-size: 18px;
+}
+/* Internet explorer placeholders */
+:-ms-input-placeholder {
+    color: white;
+    font-size: 18px;
+}
+#credit{
+    text-align: right;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}

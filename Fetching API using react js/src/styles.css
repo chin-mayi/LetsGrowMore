@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+#fprop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8ed9b1a8;
+}
+button {
+  border: none;
+  background-color: #bb89e9;
+  padding: 10px 15px;
+  margin: 20px;
+}
+#flexpro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px;
+}
